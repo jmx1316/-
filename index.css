@@ -16,6 +16,11 @@ html, body, div {
     background: #000000;
     margin: 0 auto;
     z-index: 1;
+    box-shadow:-5px 10px 15px rgba(0,0,0,0.45);
+    -webkit-box-shadow:-5px 10px 15px rgba(0,0,0,0.45);
+    -moz-box-shadow:-5px 10px 15px rgba(0,0,0,0.45);
+    -o-box-shadow:-5px 10px 15px rgba(0,0,0,0.45);
+    -ms-box-shadow:-5px 10px 15px rgba(0,0,0,0.45);
 }
 
 .left-ear {
@@ -193,6 +198,20 @@ html, body, div {
     top: 95px;
 }
 
+.light {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 3px;
+    left: 3px;
+    box-shadow: 19px 8px 5px #fff;
+    -webkit-box-shadow: 19px 8px 5px #fff;
+    -moz-box-shadow: 19px 8px 5px #fff;
+    -o-box-shadow: 19px 8px 5px #fff;
+    -ms-box-shadow: 19px 8px 5px #fff;
+}
+
 .big-mouse {
     border-radius: 90%;
     width: 96px;
@@ -293,11 +312,11 @@ html, body, div {
 }
 
 .eyeball {
-    -webkit-animation: eyemove 3s linear infinite;
-    -moz-animation: eyemove 3s linear infinite;
-    -ms-animation: eyemove 3s linear infinite;
-    -o-animation: eyemove 3s linear infinite;
-    animation: eyemove 3s linear infinite;
+    -webkit-animation: eyemove 2.5s linear infinite;
+    -moz-animation: eyemove 2.5s linear infinite;
+    -ms-animation: eyemove 2.5s linear infinite;
+    -o-animation: eyemove 2.5s linear infinite;
+    animation: eyemove 2.5s linear infinite;
 }
 
 @-webkit-keyframes eyemove {
@@ -401,4 +420,4 @@ html, body, div {
     96% {
         margin: 0 0 0 0;
     }
-}
+}  
